@@ -1,6 +1,6 @@
 # TextCleaner
 
-Simple gem does one thing, and one thing only... Turns funky chars such as [FILL IN HERE] to the proper HTML Encodings such as [FILL IN HERE].
+Simple gem does one thing, and one thing only... Turns funky chars such as `‘‘“”` into the proper HTML Encodings such as `&lsquo;&lsquo;&ldquo;&rdquo;`.
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-	TextCleaner.clean(input_text)
+    TextCleaner.clean(input_text)
+    TextCleaner.only(input_text, char)
 
 ## Contributing
 

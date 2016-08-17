@@ -265,4 +265,14 @@ module TextCleaner
     end
     input_text
   end
+
+  def self.only(input_text, char)
+    DICTIONARY.each_line do |line|
+      name, html, hex, oct, display, display2, display3 = line.split(/\t/)
+      if display.include?(char)
+        input_text.gsub!(display.strip, html.strip)
+      end
+    end
+    input_text
+  end
 end

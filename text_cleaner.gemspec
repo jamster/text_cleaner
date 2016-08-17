@@ -2,8 +2,8 @@
 require File.expand_path('../lib/text_cleaner/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Jason Amster"]
-  gem.email         = ["jayamster@gmail.com"]
+  gem.authors       = ["Jason Amster","Dan Black"]
+  gem.email         = ["jayamster@gmail.com", "the@dan.black"]
   gem.description   = %q{Simple gem does one thing, and one thing only... Turns funky chars such as [FILL IN HERE] to the proper HTML Encodings such as [FILL IN HERE].}
   gem.summary       = %q{Simple gem does one thing, and one thing only... Turns funky chars such as [FILL IN HERE] to the proper HTML Encodings such as [FILL IN HERE].}
   gem.homepage      = "https://github.com/jamster/text_cleaner"
